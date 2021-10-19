@@ -1,0 +1,31 @@
+{
+  "name": "k-react-cli",
+  "version": "2.0.2",
+  "description": "基于create-react-app自定义的脚手架，多个模版可供选择，帮助你快速创建开发项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/k-w-wang/react-cli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k-w-wang/react-cli.git"
+  },
+  "author": "k_wang",
+  "license": "MIT",
+  "keywords": ["react","create-react-app","hooks","axios","antd","ts","less"],
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "download-git-repo": "^1.1.0",
+    "inquirer": "^6.2.2",
+    "ora": "^3.2.0"
+  },
+  "bin": {
+    "kr": "./bin/kr.js",
+    "kr-add": "bin/kr-add.js",
+    "kr-delete": "bin/kr-delete.js",
+    "kr-list": "bin/kr-list.js",
+    "kr-create": "bin/kr-create.js"
+  }
+}
